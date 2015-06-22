@@ -10,6 +10,7 @@
     EDXAPP_NO_PREREQ_INSTALL: 0
     COMMON_MOTD_TEMPLATE: 'devstack_motd.tail.j2'
     COMMON_SSH_PASSWORD_AUTH: "yes"
+    COMMON_SSH_PORT: '22'
   roles:
     - edx_ansible
     - edxlocal
